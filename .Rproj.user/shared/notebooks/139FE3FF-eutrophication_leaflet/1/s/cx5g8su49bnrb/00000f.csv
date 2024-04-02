@@ -1,0 +1,18 @@
+"0","require(leaflet)"
+"2","Loading required package: leaflet
+"
+"2","Warning: package ‘leaflet’ was built under R version 4.2.3"
+"2","Registered S3 methods overwritten by 'htmltools':
+  method               from         
+  print.html           tools:rstudio
+  print.shiny.tag      tools:rstudio
+  print.shiny.tag.list tools:rstudio
+"
+"2","Registered S3 method overwritten by 'htmlwidgets':
+  method           from         
+  print.htmlwidget tools:rstudio
+"
+"0","leaflet() %>% "
+"0","  setView(lng = 39.5, lat = -5.5,zoom = 8) %>% "
+"0","  addTiles(group = ""Open Street"") %>% "
+"0","  addRasterImage(x = raster.data,colors = oce::oce.colors9B(120))"
