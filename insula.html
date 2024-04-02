@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.353">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Nyamisi Peter">
+<meta name="dcterms.date" content="2024-03-27">
+
+<title>Earth Observation for monitoring and studying coastal Eutrophication and its related phenomena</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="insula_files/libs/clipboard/clipboard.min.js"></script>
+<script src="insula_files/libs/quarto-html/quarto.js"></script>
+<script src="insula_files/libs/quarto-html/popper.min.js"></script>
+<script src="insula_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="insula_files/libs/quarto-html/anchor.min.js"></script>
+<link href="insula_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="insula_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="insula_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="insula_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="insula_files/libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+
+
+</head>
+
+<body class="fullcontent">
+
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Earth Observation for monitoring and studying coastal Eutrophication and its related phenomena</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Nyamisi Peter </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">March 27, 2024</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="introduction" class="level1" data-number="1">
+<h1 data-number="1"><span class="header-section-number">1</span> Introduction</h1>
+<section id="overview-of-coastal-eutrophication" class="level2" data-number="1.1">
+<h2 data-number="1.1" class="anchored" data-anchor-id="overview-of-coastal-eutrophication"><span class="header-section-number">1.1</span> Overview of coastal eutrophication</h2>
+<p>Coastal eutrophication, a phenomenon increasingly observed worldwide, poses significant ecological and environmental challenges <span class="citation" data-cites="malone20 akinnawo23">(<a href="#ref-akinnawo23" role="doc-biblioref">Akinnawo, 2023</a>; <a href="#ref-malone20" role="doc-biblioref">Malone and Newton, 2020</a>)</span>. Eutrophication, characterized by excessive nutrient enrichment in aquatic ecosystems, particularly coastal areas, is a result of human activities such as agricultural runoff, wastewater discharge, and industrial processes <span class="citation" data-cites="malone20 akinnawo23 sonarghare20 zhang23">(<a href="#ref-akinnawo23" role="doc-biblioref">Akinnawo, 2023</a>; <a href="#ref-malone20" role="doc-biblioref">Malone and Newton, 2020</a>; <a href="#ref-sonarghare20" role="doc-biblioref">Sonarghare et al., 2020</a>; <a href="#ref-zhang23" role="doc-biblioref">Zhang et al., 2023</a>)</span>. These nutrients, predominantly nitrogen and phosphorus, fuel the rapid growth of algae and phytoplankton, leading to the formation of algal blooms and subsequent depletion of oxygen levels in the water, a process known as hypoxia <span class="citation" data-cites="sonarghare20 zhang23">(<a href="#ref-sonarghare20" role="doc-biblioref">Sonarghare et al., 2020</a>; <a href="#ref-zhang23" role="doc-biblioref">Zhang et al., 2023</a>)</span>. The detrimental effects of coastal eutrophication are manifold, ranging from impaired water quality and biodiversity loss to detrimental impacts on fisheries, tourism, and human health.</p>
+<p>Earth observation techniques, Utilizing satellite imagery, remote sensing, and advanced data analysis, have emerged as essential tools in monitoring and understanding coastal eutrophication dynamics. By providing comprehensive spatial and temporal information on nutrient concentrations, algal blooms, and associated environmental parameters, earth observation technologies offer a good insights into the drivers, extent, and impacts of eutrophication in coastal regions <span class="citation" data-cites="malone20 akinnawo23 sonarghare20 zhang23">(<a href="#ref-akinnawo23" role="doc-biblioref">Akinnawo, 2023</a>; <a href="#ref-malone20" role="doc-biblioref">Malone and Newton, 2020</a>; <a href="#ref-sonarghare20" role="doc-biblioref">Sonarghare et al., 2020</a>; <a href="#ref-zhang23" role="doc-biblioref">Zhang et al., 2023</a>)</span>. This holistic approach enables researchers, and environmental managers to develop informed mitigation strategies and sustainable management practices to address the complex challenges posed by coastal eutrophication.</p>
+</section>
+</section>
+<section id="functionalities-of-the-system" class="level1" data-number="2">
+<h1 data-number="2"><span class="header-section-number">2</span> Functionalities of the system</h1>
+<section id="sign-in-and-tool-opening" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="sign-in-and-tool-opening"><span class="header-section-number">2.1</span> Sign in and tool opening</h2>
+<p>The functionality of the tool is highly efficient and user-friendly. One of its standout features is the login process, which is facilitated by entering user credentials. This streamlined approach ensures that users can access the tool quickly and with no effort hence enhancing their overall experience. Whether logging in for the first time or returning to the platform, the straightforward login mechanism contributes to the ease use and accessibility of the tool.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/sign_in.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Login window to the tool</figcaption>
+</figure>
+</div>
+<p>Upon successful sign-in, the tool can transition the user to the main interface, where the display map is prominently featured. Here, users are presented with a range of options and functionalities, empowering them to interact with the tool effectively. Among these functionalities is the ability to add layers to the map, allowing users to customize their viewing experience and access relevant data overlays. This streamlined approach ensures that users can navigate the tool efficiently and exploit its full suite of features with ease.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/opening_window.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Opening window of the tool</figcaption>
+</figure>
+</div>
+</section>
+<section id="adding-layer" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="adding-layer"><span class="header-section-number">2.2</span> Adding layer</h2>
+<p>Upon launching the tool, users have the option to add a layer chosen from the available selections. By accessing the <strong>Add Layer</strong> pop-up window and navigating to the <strong>Eumon</strong> tab, users can conveniently choose a group where the layers pertaining to the selected group will be displayed. Within this tab, users are presented with multiple layers, allowing them the flexibility to select the specific layer of interest.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/adding_layer.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Adding layer option</figcaption>
+</figure>
+</div>
+<p>Therafter, the datasets corresponding to the selected layer will be showcased on the map. A color palette will be utilized to visually represent the range of values within the datasets, thereby providing users with a clear understanding of the data distribution across the map.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/deviation_indicator_layer.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Spatial distribution of the deviation indicator</figcaption>
+</figure>
+</div>
+<p>Following this, users have the option to choose their preferred palette. This can be accessed through the toggle visualization setting menu of the layer. Additionally, users can adjust the transparency (opacity) of the color directly from these settings, granting them further customization control over the displayed data.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/color_pallete.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Selection of the color pallete of the layer</figcaption>
+</figure>
+</div>
+<p>Afterwards, users can specify the desired time range for the dataset of interest directly from the map interface. This functionality is accessible via the Time Navigation settings located at the bottom of the map layer. By utilizing this feature, users can refine their data visualization based on specific time periods, and this will enhance their ability to analyze temporal trends and patterns.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/time_range.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Selecting the time range of the dataset</figcaption>
+</figure>
+</div>
+</section>
+<section id="data-exploration" class="level2" data-number="2.3">
+<h2 data-number="2.3" class="anchored" data-anchor-id="data-exploration"><span class="header-section-number">2.3</span> Data exploration</h2>
+<p>The tool provides users with the capability to conduct various statistical analyses, such as calculating the distribution of the dataset within a specified transect or area. This functionality enables users to extract valuable insights by quantifying the spatial distribution of data points along designated transects or within defined geographic areas.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/transect_line.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Distribution of the data along a specified transect</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/deviation_area_statistics.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Distribution of datasets within a specified area</figcaption>
+</figure>
+</div>
+</section>
+<section id="exporting-datasets" class="level2" data-number="2.4">
+<h2 data-number="2.4" class="anchored" data-anchor-id="exporting-datasets"><span class="header-section-number">2.4</span> Exporting datasets</h2>
+<p>The datasets extracted from the designated area or transect can be conveniently exported to a <em>PNG</em> or <em>CSV</em> format, allowing users to utilize the image for various purposes. However, it is important to note that currently, only the <em>PNG</em> format is supported for exporting data of a transect or area.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/area_export.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Exporting the data to a PNG and CSV format</figcaption>
+</figure>
+</div>
+<p>Conversely, the raster layer can also be exported in a variety of formats, including <em>GeoTiff</em>, <em>GeoPackage</em>, or as image to a <em>PNG</em>, or <em>JPEG</em>. This versatility enables users to utilize the raster data across different software platforms, facilitating integration and analysis in their preferred tools or environments.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="graphics/exporting_raster_layer.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Exporting raster layer</figcaption>
+</figure>
+</div>
+</section>
+<section id="limitation-of-the-tool" class="level2" data-number="2.5">
+<h2 data-number="2.5" class="anchored" data-anchor-id="limitation-of-the-tool"><span class="header-section-number">2.5</span> Limitation of the tool</h2>
+<p>When adding a layer, there are currently no descriptions of the dataset provided. This lack of information makes it challenging for users to understand the nature of each layer and the distinctions between them. Additionally, the absence of units for the datasets within each layer makes it difficult to interpret the numerical values displayed after selecting a particular layer. Another drawback of the tool is its inability to respond when users attempt to export data in CSV format. Unfortunately, the tool does not support this function, hindering users from accessing data in a preferred format for analysis or sharing purposes.</p>
+<p>To address these issues, I recommend including a brief description for each layer. For instance, if the user selects the <strong>Deviation Indicator</strong> or <strong>Anomaly</strong> layer, there should be a short explanation indicating whether it represents deviations in algal bloom levels, microplastic pollution, chlorophyll concentration or any other relevant variable. Furthermore, specifying the units for these variables would assist users in discerning the differences between them and will interpret the numerical data accurately. In case of data export, I recommend the developer to incorporate a feature that allows users to export data in <em>CSV</em> format easily. By enabling this functionality, will help greater flexibility of the user in accessing and utilizing the data generated by the tool.</p>
+</section>
+</section>
+<section id="importance-of-a-tool" class="level1" data-number="3">
+<h1 data-number="3"><span class="header-section-number">3</span> Importance of a tool</h1>
+<p>This tool holds significant importance for various institutions within our nation that are involved in managing aquatic ecosystems and environmental conservation efforts. It provides an important platform through which these institutions can access eutrophication data, addressing a major challenge faced by our country. The following are some of the key advantages this tool offers to these institutions:</p>
+<section id="functionality" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="functionality"><span class="header-section-number">3.1</span> Functionality</h2>
+<p>The tool seems to offer a wide range of functionalities, including data visualization, analysis, and export options. Its ability to incorporate various layers and datasets, as well as provide customization features like palette selection and transparency adjustments, enhances its utility.</p>
+</section>
+<section id="user-friendliness" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="user-friendliness"><span class="header-section-number">3.2</span> User-Friendliness</h2>
+<p>It appears that the tool is designed with user experience in mind, offering a straightforward interface and intuitive navigation. Features such as the ability to easily add layers, adjust settings, and export data contribute to its user-friendliness.</p>
+</section>
+<section id="data-accessibility" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="data-accessibility"><span class="header-section-number">3.3</span> Data Accessibility</h2>
+<p>The integration of the tool with the Earth observation data for monitoring coastal eutrophication is very appreciated. By utilizing satellite imagery and remote sensing techniques, it enables users to access valuable spatial and temporal information for monitoring and understanding environmental dynamics.</p>
+</section>
+<section id="export-options" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="export-options"><span class="header-section-number">3.4</span> Export Options</h2>
+<p>While the tool supports exporting data in <em>PNG</em> format, the absence of support for exporting in <em>CSV</em> format for certain functionalities like transect or area data may be seen as a limitation. However, the availability of export options for raster layers in various formats like <em>GeoTiff</em> and <em>GeoPackage</em> enhances its versatility and compatibility.</p>
+<p>Lastly, the tool appears to offer valuable functions for monitoring coastal eutrophication through Earth observation, with potential for further optimization and expansion based on user needs and technological advancements.</p>
+</section>
+</section>
+<section id="how-the-tool-can-be-used-in-tanzania" class="level1" data-number="4">
+<h1 data-number="4"><span class="header-section-number">4</span> How the tool can be used in Tanzania</h1>
+<p>The tool can be used in Tanzania at different areas:</p>
+<ol type="i">
+<li><strong>Monitoring Coastal Eutrophication</strong>:</li>
+</ol>
+<p>Tanzania, with its extensive coastline along the Indian Ocean and numerous freshwater bodies, faces challenges related to coastal eutrophication. The tool can be used by National Environment Management Council (NEMC) to monitor and assess the extent of eutrophication in coastal areas. This will help in development of effective management strategies.</p>
+<ol start="2" type="i">
+<li><strong>Managing Fisheries</strong>:</li>
+</ol>
+<p>The tool can aid Tanzania Fisheries Research Institute (TAFIRI) in monitoring water quality and identifying areas affected by eutrophication, which can impact fish habitats and stocks. By knowing these dynamics, TAFIRI may implement measures to manage fisheries resources in a sustainable manner.</p>
+<ol start="3" type="i">
+<li><strong>Tourism Development</strong>:</li>
+</ol>
+<p>The coastal regions in Tanzania including Zanzibar, Pwani and Dar es Salaam, rely heavily on tourism. Monitoring and maintaining water quality is important for sustaining tourism activities. The tool can assist in assessing water quality parameters and identifying areas where appropriate actions may be necessary to safeguard tourism assets.</p>
+<ol start="4" type="i">
+<li><strong>Research and Education</strong>:</li>
+</ol>
+<p>Academic institutions and research organizations in Tanzania can utilize the tool for research purposes, studying the dynamics of coastal eutrophication, conducting environmental monitoring studies, and raising awareness about the importance of conserving aquatic ecosystems among students and local communities.</p>
+<ol start="22" type="a">
+<li><strong>International Collaboration</strong>:</li>
+</ol>
+<p>Tanzania can utilize the tool to collaborate with international organizations, research institutions, and neighboring countries on regional initiatives aimed at addressing shared challenges related to coastal eutrophication and water quality management.</p>
+<ol start="6" type="i">
+<li><strong>Policy Formulation</strong>:</li>
+</ol>
+<p>Data generated by the tool can be used to advice the decision-makers on the development of policies and regulations related to water quality management, coastal zone management, and sustainable development in Tanzania. Decision-makers can use evidence-based information to formulate effective policies and allocate resources efficiently.</p>
+</section>
+<section id="references" class="level1 unnumbered" data-number="5">
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">5 References</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-akinnawo23" class="csl-entry" role="listitem">
+Akinnawo, S.O., 2023. Eutrophication: Causes, consequences, physical, chemical and biological techniques for mitigation strategies. Environmental Challenges 100733.
+</div>
+<div id="ref-malone20" class="csl-entry" role="listitem">
+Malone, T.C., Newton, A., 2020. The globalization of cultural eutrophication in the coastal ocean: Causes and consequences. Frontiers in Marine Science 7, 670.
+</div>
+<div id="ref-sonarghare20" class="csl-entry" role="listitem">
+Sonarghare, P., Masram, S., Sonparote, U., Khaparde, K., Kharkate, S., 2020. Causes and effects of eutrophication on aquatic life (a review). International Journal for Environmental Rehabilitation and Conservation, XI 213–218.
+</div>
+<div id="ref-zhang23" class="csl-entry" role="listitem">
+Zhang, H., Chen, J., Haffner, D., 2023. Plateau lake water quality and eutrophication: Status and challenges. Water 2023, 15, 337. Plateau Lake Water Quality and Eutrophication 1.
+</div>
+</div></section></div></main>
+<!-- /main column -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>

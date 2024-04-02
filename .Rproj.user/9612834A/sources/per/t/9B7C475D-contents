@@ -1,0 +1,30 @@
+---
+title: "insula"
+author: "Nyamisi Peter"
+documentclass: report
+---
+
+## 
+
+The functionality of the tool is highly efficient and user-friendly. One of its standout features is the login process, which is facilitated by entering user credentials. This streamlined approach ensures that users can access the tool quickly and with no effort hence enhancing their overall experience. Whether logging in for the first time or returning to the platform, the straightforward login mechanism contributes to the ease use and accessibility of the tool.
+
+![](graphics/sign_in.ai)
+
+
+
+
+
+
+
+
+
+## Limitation of the tool
+
+When adding a layer, there are currently no descriptions of the dataset provided. This lack of information makes it challenging for users to understand the nature of each layer and the distinctions between them. Additionally, the absence of units for the datasets within each layer makes it difficult to interpret the numerical values displayed after selecting a particular layer.
+
+To address these issues, I recommend including a brief description for each layer. For instance, if the user selects the **Deviation Indicator** or **Anomaly** layer, there should be a short explanation indicating whether it represents deviations in algal bloom levels, microplastic pollution, chlorophyll concentration or any other relevant variable. Furthermore, specifying the units for these variables would assist users in discerning the differences between them and will interpret the numerical data accurately.
+
+
+
+
+
