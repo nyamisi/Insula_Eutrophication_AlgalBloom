@@ -1,9 +1,9 @@
 {
     "id": "3CF99939",
-    "path": "~/2024/insula/insula.qmd",
-    "project_path": "insula.qmd",
+    "path": "~/2024/insula/index.qmd",
+    "project_path": "index.qmd",
     "type": "quarto_markdown",
-    "hash": "0",
+    "hash": "1013661958",
     "contents": "",
     "dirty": false,
     "created": 1711967266668.0,
@@ -21,7 +21,7 @@
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1712052974865,
+    "last_content_update": 1712052974,
     "read_only": false,
     "read_only_alternatives": []
 }
